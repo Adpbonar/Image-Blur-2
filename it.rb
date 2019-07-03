@@ -30,11 +30,11 @@ class Image
       @location
     end
     
-    def change 
-      blur.each do |x_value, y_value|
-        set_up(x_value, y_value)
-      end
-    end 
+  def change 
+    blur.each do |x_value, y_value|
+      set_up(x_value, y_value)
+    end
+  end 
 end
 
 image = Image.new([
